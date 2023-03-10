@@ -1,5 +1,4 @@
-﻿using LineComparison;
-using System;
+﻿using System;
 
 namespace LineComputationProblem
 {
@@ -9,7 +8,7 @@ namespace LineComputationProblem
         {
          
             Console.WriteLine("Welcome to Line Comparison Computation Program");
-            CalculateLength.call();
+            LengthCheck.call();
         }   
 
     }

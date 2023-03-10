@@ -28,7 +28,7 @@
 
         double lengthOfLine2 = Math.Sqrt(((x4 - x3) * (x4 - x3)) + ((y4 - y3) * (y4 - y3)));
         Console.WriteLine("Distance between two points: " + "(" + x1 + "," + y1 + ")" + "(" + x2 + "," + y2 + ")  is :" + lengthOfLine1);
-        Console.WriteLine("Distance between two points: " + "(" + x1 + "," + y1 + ")" + "(" + x2 + "," + y2 + ")  is :" + lengthOfLine2);
+        Console.WriteLine("Distance between two points: " + "(" + x3 + "," + y3 + ")" + "(" + x4 + "," + y4 + ")  is :" + lengthOfLine2);
 
         // compare the length
         if (lengthOfLine1 == lengthOfLine2)

@@ -1,6 +1,7 @@
 ﻿using LineComparison;
+using System;
 
-namespace LineComputation
+namespace LineComputationProblem
 {
     class program
     {
@@ -8,6 +9,7 @@ namespace LineComputation
         {
          
             Console.WriteLine("Welcome to Line Comparison Computation Program");
+            CalculateLength.call();
         }   
 
     }

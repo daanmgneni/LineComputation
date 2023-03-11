@@ -30,14 +30,19 @@
         Console.WriteLine("Distance between two points: " + "(" + x1 + "," + y1 + ")" + "(" + x2 + "," + y2 + ")  is :" + lengthOfLine1);
         Console.WriteLine("Distance between two points: " + "(" + x1 + "," + y1 + ")" + "(" + x2 + "," + y2 + ")  is :" + lengthOfLine2);
 
-        // compare the length
+        // comparing the length
         if (lengthOfLine1 == lengthOfLine2)
         {
             Console.WriteLine("Both the line are equal");
         }
-        else
+        else if (lengthOfLine1 > lengthOfLine2)
         {
-            Console.WriteLine("Both lines are not equal");
+            Console.WriteLine("Line 1 is greater than Line 2");
         }
+        else if (lengthOfLine1 < lengthOfLine2)
+        {
+            Console.WriteLine("Line 1 is smaller than Line 2");
+        }
+
     }
 }
